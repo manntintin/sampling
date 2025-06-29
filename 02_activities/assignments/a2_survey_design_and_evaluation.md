@@ -9,8 +9,12 @@ The goal of this assignment is to practice developing and evaluating sampling ma
 Select one of the scenarios below and design a survey to meet the need(s) outlined in the prompt.
 
 1.	In two to three sentences, describe the purpose of your survey
+    
 2.	Describe your target population, sampling frame, sampling units, and overall sampling strategy.
+    
 3.	Write a 5-10 question survey to address your chosen scenario below.
+   
+
 
 ##### Scenarios
 1.	You work in the Human Resources Department at a large tech company. Over the past few months, the company has been experiencing a high turnover rate across many of its departments, specifically within the entry- and lower-level positions. The company wishes to understand why this turnover is happening, and what changes need to occur to improve employee satisfaction.
@@ -21,7 +25,7 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 For the **Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (cycle 33)**, conducted by Statistics Canada find any and all available documentation for the data gathered and identify and describe the survey features indicated below.
 
-1. Sample type
+1. Sample type: Stratified random sample. The sample was stratified by province and Census Metropolitan Area (CMA) to ensure geographic representation.
 2. Sample size
 3. Target population
 4. Sampling frame
@@ -43,27 +47,25 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 The number of your chosen topic: `#`
 
 Describe the purpose of your survey:
-```
-write your answer here...
-```
+
+Scenario 1. The purpose of this survey is to investigate the reason of high employee turnover rate, especially among entry- and lower-level positions. It also aims to identify changes that could improve employee satisfaction and retention.
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
-```
+- Target population: All the employees who held entry- or lower-level positions.
+- Sampling frame: Employees database from HR records
+- Sampling units: Individual employees
+- Overall sampling strategy: Stratified random sampling by department.```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+- What department were you working in?
+- How long did you work at the company?
+- How satisfied were you in your role? (1 = Very dissatisfied, 5 = Very satisfied)
+- Do you feel you have opportunities for career growth? (Yes/No)
+- How would you rate the support from your immediate supervisor? (1-5 scale)
+- Have you ever considered leaving the company? (Yes/No)
+- Did you feel your compensation (pay, benefits) was fair? (Yes/No)
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +73,43 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type
+Stratified cross-sectional probability sample. Stratification was based on province and Census Metropolitan Area (CMA), with sub-sampling of non-volunteers using rejective sampling.
+2. Sample size
+Around 16,149 finalized responses included in public data.
+3. Target population
+Information is collected from one randomly selected household member aged 15 or older, and proxy responses are not permitted.
+4. Sampling frame
+This survey uses a frame that combines landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame. Records on the frame are groups of one or several telephone numbers associated with the same address (or single telephone number in the case a link between a telephone number and an address could not be established). 
+5. Survey mode(s) 
+Data are collected directly from survey respondents either through an electronic questionnaire or through CATI (computer assisted telephone interviewing). No proxy reporting is allowed. Survey was bilingual (English/French).
+6. Timeline
+Data collection for this reference period: 2018-09-04 to 2018-12-28
+7. Response rate
+The overall response rate is 41.9%.
+8. Weights
+WGHT_PER: This is the basic weighting factor for analysis at the person level, i.e. to calculate estimates of the number of persons (non-institutionalized and aged 15 or over) having one or several given characteristics.
+In addition to the estimation weights, bootstrap weights have been created for the purpose of design-based variance estimation.
+9. Data processing
+validation and scrutiny of the data by statisticians are the ultimate quality checks prior to dissemination. They include:
+a. Analysis of changes over time;
+b. Verification of estimates through cross-tabulations;
+c. Confrontation with other similar sources of data.
+10. Cleaning, imputation, etc
+•⁠  ⁠Missing data imputed using donor imputation (nearest-neighbour scoring method)  
+•⁠  ⁠Mean imputation used when donor not found  
+•⁠  ⁠9-step imputation process
+•⁠  ⁠Income obtained from 2017 tax data for ~82% of respondents; rest imputed
+11. Sources of error
+As the data are based on a sample of persons, they are subject to sampling error. That is, estimates based on a sample will vary from sample to sample, and typically they will be different from the results that would have been obtained from a complete census.
+12. Limitations, known biases, etc
+•⁠  ⁠Territories and institutionalized populations excluded  
+•⁠  ⁠Households without phones not covered  
+•⁠  ⁠Nonresponse bias adjusted using administrative data (e.g., income, household type)  
+•⁠  ⁠Electronic questionnaire option may reduce participation among digitally underserved populations
+13. Link to documentation and any additional sources used
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234#a2
+
 ```
 
 ## Rubric
